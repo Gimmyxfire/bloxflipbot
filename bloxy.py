@@ -17,67 +17,67 @@ async def mines(ctx, round_id):
         c = random.randint(14, 17)
         d = random.randint(18, 25)
         if a == 1:
-            mine1 = ":green_square: "
+            mine1 = ":star2: "
         elif a == 2:
-            mine2 = ":green_square: "
+            mine2 = ":star2: "
         elif a == 3:
-            mine3 = ":green_square: "
+            mine3 = ":star2: "
         elif a == 4:
-            mine4 = ":green_square: "
+            mine4 = ":star2: "
         elif a == 5:
-            mine5 = ":green_square: "
+            mine5 = ":star2: "
         elif a == 6:
-            mine6 = ":green_square: "
+            mine6 = ":star2: "
         elif a == 7:
-            mine7 = ":green_square: "
+            mine7 = ":star2: "
         elif a == 8:
-            mine8 = ":green_square: "
+            mine8 = ":star2: "
         if b == 9:
-            mine9 = ":green_square: "
+            mine9 = ":star2: "
         elif b == 10:
-            mine10 = ":green_square: "
+            mine10 = ":star2: "
         elif b == 11:
-            mine11 = ":green_square: "
+            mine11 = ":star2: "
         elif b == 12:
-            mine12 = ":green_square: "
+            mine12 = ":star2: "
         elif b == 13:
-            mine13 = ":green_square: "
+            mine13 = ":star2: "
         if c == 14:
-            mine14 = ":green_square: "
+            mine14 = ":star2: "
         elif c == 15:
-            mine15 = ":green_square: "
+            mine15 = ":star2: "
         elif c == 16:
-            mine16 = ":green_square: "
+            mine16 = ":star2: "
         elif c == 17:
-            mine17 = ":green_square: "
+            mine17 = ":star2: "
         if d == 18:
-            mine18 = ":green_square: "
+            mine18 = ":star2: "
         elif d == 19:
-            mine19 = ":green_square: "
+            mine19 = ":star2: "
         elif d == 20:
-            mine20 = ":green_square: "
+            mine20 = ":star2: "
         elif d == 21:
-            mine21 = ":green_square: "
+            mine21 = ":star2: "
         elif d == 22:
-            mine22 = ":green_square: "
+            mine22 = ":star2: "
         elif d == 23:
-            mine23 = ":green_square: "
+            mine23 = ":star2: "
         elif d == 24:
-            mine24 = ":green_square: "
+            mine24 = ":star2: "
         elif d == 25:
-            mine25 = ":green_square: "
+            mine25 = ":star2: "
         row1 = mine1 + mine2 + mine3 + mine4 + mine5
         row2 = mine6 + mine7 + mine8 + mine9 + mine10
         row3 = mine11 + mine12 + mine13 + mine14 + mine15
         row4 = mine16 + mine17 + mine18 + mine19 + mine20
         row5 = mine21 + mine22 + mine23 + mine24 + mine25
         info = str(random.randint(45, 90))
-        pfp = 'https://cdn.discordapp.com/attachments/1013865134504026112/1015741200722055289/standard.gif'
+        pfp = 'https://giphy.com/clips/motivation-goku-warm-up-CJRKhi0sixPav1P6MN'
         em = discord.Embed(color=0x11F1D3)
         em.set_thumbnail(url=pfp)
-        em.set_footer(text="Made by Geek")
+        em.set_footer(text="Made by Gimmyx")
         em.add_field(name="Mines predictor",value=row1 + "\n" + row2 + "\n" + row3 + "\n" + row4 +"\n" + row5 + "\n" + "**Accuracy**" + "\n" + info +"%")
         await ctx.reply(embed=em)
 
 
-bot.run("MTAxNTYwMTc1NjAyNzI0MDQ1OA.Gni8yl.Kz_F2nUzcjwktjOz6PKw3Mq6Ew0RNrrlZfQbgo")
+bot.run("MTAxNTYwMTc1NjAyNzI0MDQ1OA.G2Qr6V.CDjM-Wja1KH5eRaarCA6MCr68DGng_gNxkk1DE")
